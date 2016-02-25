@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/user', function()
 {
-    return User::all();
+    return \App\User::all();
 });
 
 Route::any('/wechat', 'WechatController@serve');
