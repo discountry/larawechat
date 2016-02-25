@@ -1,4 +1,5 @@
-# Larawechat
+# Larawechat [![Build Status](https://travis-ci.org/discountry/larawechat.svg?branch=master)](https://travis-ci.org/discountry/larawechat)
+
 Laravel Wechat Service
 
 # Dependencies
