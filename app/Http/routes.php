@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/user', function()
+{
+    return User::all();
+});
+
 Route::any('/wechat', 'WechatController@serve');
 /*
 |--------------------------------------------------------------------------
